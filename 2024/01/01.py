@@ -10,4 +10,4 @@ a2.sort()
 for i in range(len(line)) :
     print(a1[i], a2[i], end='\n')
 
-print(sum(list(abs(a1[i] - a2[i]) for i in range(len(line)))))    
+print(sum(list(abs(a1[i] - a2[i]) for i in range(len(line)))))  
